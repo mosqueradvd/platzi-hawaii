@@ -13,27 +13,27 @@
 }
 
 .badge-primary {
-	color: #b0d6ff;
+	color: #007bff;
 	padding: 6px;
-	background-color: #007bff;
+	background-color: #b0d6ff;
 }
 
 .badge-warning {
-	color: #ffffff;
+	color: #d19d05;
 	padding: 6px;
-	background-color: #ffc107;
+	background-color: #ffe390;
 }
 
 .badge-success {
-	color: #a9ffbd;
+	color: #28a745;
 	padding: 6px;
-	background-color: #28a745;
+	background-color: #a9ffbd;
 }
 
 .badge-danger {
-	color: #ffc9cf;
+	color: #dc3545;
 	padding: 6px;
-	background-color: #dc3545;
+	background-color: #ffc9cf;
 }
 
 .badge-light {
@@ -47,6 +47,36 @@
 	background-color: #343a40;
 	padding: 6px;
 }
+
+.bt {
+	border-top: 4px solid #82ad36;
+}
+
+.hsl {
+	color: hsl(192, 17%, 88%);
+}
+
+.bs {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+}
+
+.ma {
+	margin: 2em;
+}
+
+.po {
+	cursor: pointer;
+}
+
+.wrapper {
+	left: 23em;
+	margin-top: 10em;
+	max-width: 550px;
+	z-index: 11111111;
+	position: absolute;
+	background-color: blanchedalmond;
+}
+
 
 #header img {
 	width: 80px;
@@ -79,12 +109,12 @@
 }
 
 #place-time {
-	color: white;
-	background-color: #343a40;
+	color: black;
 }
 
 #place-time img {
-	max-width: 100%;
+	max-height: 300px;
+	object-fit: cover;
 }
 
 #speakers .card img {
